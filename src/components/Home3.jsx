@@ -32,7 +32,7 @@ const Stars = ({ className = "" }) => (
 const MDMSecuritySection = () => {
   return (
     <>
-      {/* How MDM Works */}
+      
       <section className="py-12 bg-white">
         <div className="max-w-6xl mx-auto px-6">
           <h2 className="text-2xl font-bold text-[rgba(54,137,177,1)] mt-10 text-center">
@@ -60,7 +60,6 @@ const MDMSecuritySection = () => {
         </div>
       </section>
 
-      {/* Testimonials */}
       <section className="bg-white pb-12">
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mt-10">
@@ -80,7 +79,7 @@ const MDMSecuritySection = () => {
                 frontContent={
                   <div className="p-4">
                     <div className="flex items-start justify-between">
-                      <Stars />
+                 
                       <span className="text-gray-300 text-6xl leading-none select-none" aria-hidden="true">
                         ”
                       </span>
@@ -104,7 +103,7 @@ const MDMSecuritySection = () => {
                       {backCardContent[index]}
                     </p>
                     <div className="flex items-center justify-end gap-2">
-                      <Stars />
+             
                       <span className="text-gray-300 text-6xl leading-none select-none" aria-hidden="true">
                         ”
                       </span>

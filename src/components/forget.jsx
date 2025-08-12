@@ -37,7 +37,7 @@ export default function Forgotpassword() {
 
     if (Object.keys(newErrors).length === 0) {
       console.log("Password reset successful");
-      navigate("/Login"); // redirect to login
+      navigate("/Login"); 
     }
   };
 
@@ -49,7 +49,6 @@ export default function Forgotpassword() {
         <form onSubmit={handleSubmit} className="space-y-4">
 
 
-          {/* New Password */}
           <div>
             <div className="relative">
               <span className="absolute inset-y-0 left-3 flex items-center text-gray-400">
@@ -72,7 +71,7 @@ export default function Forgotpassword() {
             {errors.newPassword && <p className="text-sm text-red-500 mt-1">{errors.newPassword}</p>}
           </div>
 
-          {/* Confirm Password */}
+         
           <div> 
             <div className="relative">
               <span className="absolute inset-y-0 left-3 flex items-center text-gray-400">

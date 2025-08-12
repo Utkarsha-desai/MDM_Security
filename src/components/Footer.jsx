@@ -3,7 +3,7 @@ import mdm from "../assets/mdm.png";
 
 
 
-// Footer Section Component
+
 const Footer = () => {
   const footerLinks = { 
     features: [
@@ -56,7 +56,7 @@ const Footer = () => {
   return (
     <footer className="bg-white pt-16 pb-8 px-4 md:px-8">
       <div className="max-w-7xl mx-auto">
-        {/* Top section */}
+       
         <div className="flex flex-col sm:flex-row justify-between items-center pb-8">
           <img src={mdm} alt="MDM Security Logo" className="h-10 w-auto mb-4 sm:mb-0" />
           <nav className="flex gap-6 font-semibold text-gray-600">
@@ -68,7 +68,7 @@ const Footer = () => {
 
         <hr />
 
-        {/* Links grid */}
+        
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 py-12">
           {Object.entries(footerLinks).map(([title, links]) => (
             <div key={title}>
@@ -88,7 +88,7 @@ const Footer = () => {
 
         <hr />
 
-        {/* Bottom section */}
+       
         <div className="flex flex-col md:flex-row justify-between items-center pt-8 text-sm text-gray-500">
           <p className="mb-4 md:mb-0">
             <a

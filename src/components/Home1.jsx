@@ -10,7 +10,7 @@ const HeroSection = () => {
     <section className="w-full bg-white">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-12 pb-12">
         <div className="flex flex-col-reverse lg:flex-row items-center gap-10 lg:gap-14">
-          {/* Left Content */}
+          
           <div className="w-full lg:w-1/2">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
               Boost Employee
@@ -25,7 +25,7 @@ const HeroSection = () => {
               comprehensive attendance tracking so you get full control over your digital workspace.
             </p>
 
-            {/* One-line bullets with native markers */}
+       
             <ul className="mt-6 pl-5 list-disc marker:text-[rgba(54,137,177,1)] text-gray-600 text-sm sm:text-base flex flex-wrap gap-x-6 gap-y-2">
               <li>99.9% accurate time tracking</li>
               <li>Boosts productivity by up to 92%</li>
@@ -50,18 +50,17 @@ const HeroSection = () => {
             </div>
           </div>
 
-          {/* Right: Orbit Illustration + Images */}
-          <div className="w-full lg:w-1/2">
+          <div className="w-full lg:w-1/2 ms-auto">
             <div className="relative flex justify-center items-center">
-              {/* Orbit Illustration (hidden on small for performance/clarity) */}
+           
               <div 
                 aria-hidden="true"
                 className="hidden sm:flex absolute inset-0 items-center justify-center pointer-events-none"
               > 
                 <div className="relative h-54 w-54 md:h-[28rem] md:w-[28rem] lg:h-[32rem] lg:w-[32rem]">
-                  {/* Center */}
+                  
                   <div className="absolute inset-1/2 -translate-x-1/2 -translate-y-1/2 w-12 h-12 md:w-16 md:h-16 bg-[rgba(54,137,177,1)] rounded-full z-10"></div>
-                  {/* Orbits */}
+               
                   <div className="absolute inset-1/2 -translate-x-1/2 -translate-y-1/2 w-40 h-40 md:w-52 md:h-52 border-2 border-[rgba(54,137,177,1)] rounded-full">
                     <div className="absolute -top-3 left-1/2 -translate-x-1/2 w-4 h-4 md:w-5 md:h-5 bg-[rgba(54,137,177,1)] rounded-full"></div>
                   </div>
@@ -80,7 +79,6 @@ const HeroSection = () => {
                 </div>
               </div>
 
-              {/* Foreground Images */}
 <div className="relative z-10 grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 mt-8 sm:mt-8 md:mt-15 lg:mt-0 w-full max-w-4xl mx-auto">
   <img
     src={Image1}
@@ -97,7 +95,7 @@ const HeroSection = () => {
           </div>
         </div>
 
-        {/* Icon bullets below hero content */}
+        
         <ul className="mt-8 flex flex-wrap items-center justify-center gap-x-6 gap-y-3 text-gray-700 text-sm sm:text-base p-0 list-none">
           <li className="flex items-center gap-2">
             <img src={Vector} alt="" className="h-5 w-5" />
