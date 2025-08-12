@@ -23,7 +23,7 @@ const Home8 = () => {
         </div>
       </div>
     </section>
-  );
+  ); 
 };
 
 export default Home8;

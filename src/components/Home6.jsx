@@ -85,7 +85,7 @@ const MdmSecurityPlatform = () => {
           </div>
         </div> 
       </section>
-
+ 
       <section className="container mx-auto px-6 py-12 mt-10">
         <div className="flex flex-col lg:flex-row items-center gap-10">
           {/* Left: Orbit Illustration */}

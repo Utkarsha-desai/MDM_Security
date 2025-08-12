@@ -26,6 +26,6 @@ const FlipCard = ({ frontContent, backContent }) => {
       </div>
     </div>
   );
-};
+}; 
 
 export default FlipCard; 

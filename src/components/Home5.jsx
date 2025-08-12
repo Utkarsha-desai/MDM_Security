@@ -53,7 +53,7 @@ const HowMDMWorks = () => {
             {/* Overlapping white cards */}
             <div className="absolute left-[7%] top-[12%] w-56 sm:w-94 h-32 sm:h-50 bg-white rounded-lg shadow-lg z-10 transition hover:-translate-y-1 hover:shadow-2xl" />
             <div className="absolute right-[7%] bottom-[12%] w-76 sm:w-94 h-62 sm:h-50 bg-white rounded-lg shadow-lg z-20 transition hover:-translate-y-1 hover:shadow-2xl" />
-
+ 
             {/* Chat bubbles */} 
             <div className="absolute right-[20%] top-[8%] bg-white shadow-lg border border-blue-200 rounded-xl px-3 py-2 w-56 sm:w-60 text-xs sm:text-sm text-gray-700 flex items-center gap-2 z-30">
               <img src={sid} alt="" className="w-5 h-5" />

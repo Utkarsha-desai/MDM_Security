@@ -22,7 +22,7 @@ const FeatureItem = ({ icon: Icon, text }) => {
   );
 };
 
-
+ 
 const HowMDMWorks = () => {
   return (
     <div className="bg-white min-h-screen flex flex-col items-center justify-center p-4 overflow-hidden">

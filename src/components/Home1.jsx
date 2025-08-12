@@ -57,7 +57,7 @@ const HeroSection = () => {
               <div 
                 aria-hidden="true"
                 className="hidden sm:flex absolute inset-0 items-center justify-center pointer-events-none"
-              >
+              > 
                 <div className="relative h-54 w-54 md:h-[28rem] md:w-[28rem] lg:h-[32rem] lg:w-[32rem]">
                   {/* Center */}
                   <div className="absolute inset-1/2 -translate-x-1/2 -translate-y-1/2 w-12 h-12 md:w-16 md:h-16 bg-[rgba(54,137,177,1)] rounded-full z-10"></div>

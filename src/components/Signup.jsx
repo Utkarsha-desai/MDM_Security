@@ -83,7 +83,7 @@ export default function SignUpPage() {
           >
             Sign Up
           </button> 
-        </form>
+        </form> 
 
         <div className="text-center text-sm">
           Already have an account?{" "}

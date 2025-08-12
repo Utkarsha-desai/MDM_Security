@@ -5,7 +5,7 @@ import mdm from "../assets/mdm.png";
 
 // Footer Section Component
 const Footer = () => {
-  const footerLinks = {
+  const footerLinks = { 
     features: [
       "Employee Monitoring", 
       "Screenshot Capture",

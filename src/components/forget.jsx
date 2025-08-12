@@ -73,7 +73,7 @@ export default function Forgotpassword() {
           </div>
 
           {/* Confirm Password */}
-          <div>
+          <div> 
             <div className="relative">
               <span className="absolute inset-y-0 left-3 flex items-center text-gray-400">
                 <FaLock />
