@@ -7,7 +7,7 @@ import mdm from "../assets/mdm.png";
 const Footer = () => {
   const footerLinks = {
     features: [
-      "Employee Monitoring",
+      "Employee Monitoring", 
       "Screenshot Capture",
       "Time & Attendance Tracking",
       "Login & Logout Monitoring",

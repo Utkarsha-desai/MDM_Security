@@ -75,7 +75,7 @@ const MDMSecuritySection = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8">
             {frontCardContent.map((item, index) => (
               <FlipCard
-                key={index}
+                key={index} 
                 className="rounded-xl shadow-md hover:shadow-xl transition-transform hover:-translate-y-1 bg-white"
                 frontContent={
                   <div className="p-4">

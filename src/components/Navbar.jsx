@@ -38,7 +38,7 @@ const Navbar = () => {
           <a href="#" className="text-gray-700 hover:text-blue-600" onClick={() => setMobileOpen(false)}>Features</a>
           <a href="#" className="text-gray-700 hover:text-blue-600" onClick={() => setMobileOpen(false)}>Solution</a>
           <a href="#" className="text-gray-700 hover:text-blue-600" onClick={() => setMobileOpen(false)}>Pricing</a>
-
+ 
           <button className="bg-white-600 text-blue-300 rounded-lg border-2 border-[rgba(54,137,177,1)] py-2" onClick={() => setMobileOpen(false)}>Demo</button>
           <button className="bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition border-2 border-[rgba(54,137,177,1)] py-2" onClick={() => setMobileOpen(false)}>Start Free Trial</button>
           <a href="/Login" className="text-black-700" onClick={() => setMobileOpen(false)}>Log in</a>

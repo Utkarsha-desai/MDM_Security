@@ -31,7 +31,7 @@ const HowMDMWorks = () => {
   <h2 className="text-2xl font-bold text-[rgba(54,137,177,1)] mb-2">
     How MDM Works
   </h2>
-
+ 
   <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 max-w-3xl leading-snug">
     Turn Daily Activity Into{" "}
     <span className="text-[rgba(54,137,177,1)]">High-Impact Decisions</span>

@@ -19,7 +19,7 @@ const Home8 = () => {
             <button className="bg-white text-[rgba(54,137,177,1)] text-lg rounded-xl hover:bg-blue-300 transition w-56 border-2 border-[rgba(54,137,177,1)] px-4 py-4 hover:shadow-xl hover:-translate-y-1">
               Schedule the Demo
             </button>
-          </div>
+          </div> 
         </div>
       </div>
     </section>

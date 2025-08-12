@@ -16,7 +16,7 @@ function App() {
         <Route path="/Forget" element={<Forget  />} />
       </Routes>
     </Router>
-  );
+  ); 
 }
 
 export default App;

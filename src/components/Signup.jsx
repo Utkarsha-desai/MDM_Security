@@ -82,7 +82,7 @@ export default function SignUpPage() {
             className="w-full bg-blue-600 text-white rounded-md py-2 hover:bg-blue-700 transition"
           >
             Sign Up
-          </button>
+          </button> 
         </form>
 
         <div className="text-center text-sm">

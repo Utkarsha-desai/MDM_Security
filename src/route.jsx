@@ -18,7 +18,7 @@ const AllRoutes = () => {
         <Home1 />
         <Home2 />
         <Home3 />
-        <Home5 />
+        <Home5 /> 
         <Home6 />
         <Home7 />
         <Home8 />

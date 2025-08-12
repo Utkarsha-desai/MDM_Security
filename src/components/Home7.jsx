@@ -31,7 +31,7 @@ const Component = () => {
               From saving $2.5M in contractor costs to lifting productivity by 92%,
               companies across industries are using MDM Security to work smarter.
             </p>
-
+ 
             {/* Feature Cards */}
             <div className="mt-8 sm:mt-10 flex flex-col md:flex-row items-center justify-center gap-6 sm:gap-8">
               {featureCards.map((_, idx) => (

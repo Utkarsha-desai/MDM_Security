@@ -4,13 +4,11 @@ const FlipCard = ({ frontContent, backContent }) => {
   const [isFlipped, setIsFlipped] = useState(false);
 
   return (
-    //main container
     <div
       className="bg-transparent w-88 h-88 [perspective:1000px] ]"
       onMouseEnter={() => setIsFlipped(true)}
       onMouseLeave={() => setIsFlipped(false)}
     >
-      {/*  (rotate). */}
       <div
         className={`relative w-full h-full text-center transition-transform duration-700 [transform-style:preserve-3d] ${
           isFlipped ? '[transform:rotateY(180deg)]' : ''
@@ -30,4 +28,4 @@ const FlipCard = ({ frontContent, backContent }) => {
   );
 };
 
-export default FlipCard;
+export default FlipCard; 

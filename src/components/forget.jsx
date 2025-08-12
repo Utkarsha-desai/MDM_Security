@@ -78,7 +78,7 @@ export default function Forgotpassword() {
               <span className="absolute inset-y-0 left-3 flex items-center text-gray-400">
                 <FaLock />
               </span>
-              <input
+              <input 
                 type="password"
                 placeholder="Confirm Password"
                 value={confirmPassword}

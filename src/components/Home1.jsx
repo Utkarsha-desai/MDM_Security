@@ -54,7 +54,7 @@ const HeroSection = () => {
           <div className="w-full lg:w-1/2">
             <div className="relative flex justify-center items-center">
               {/* Orbit Illustration (hidden on small for performance/clarity) */}
-              <div
+              <div 
                 aria-hidden="true"
                 className="hidden sm:flex absolute inset-0 items-center justify-center pointer-events-none"
               >
