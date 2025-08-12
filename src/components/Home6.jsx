@@ -37,20 +37,21 @@ const MdmSecurityPlatform = () => {
                  <div className="w-77 h-54 bg-white rounded-lg shadow-lg absolute top-6 left-24 z-10shadow-md  transition-all duration-300 pt-10 object-cover  ease-in-out hover:shadow-2xl hover:-translate-y-2 "></div>
                   <div className="w-77 h-54 bg-white rounded-lg shadow-lg absolute bottom-6 mt-2 right-24 z-40shadow-md   transition-all duration-300 pt-10 object-cover  ease-in-out hover:shadow-2xl hover:-translate-y-2"></div>
                   {/* Chat Box 1 */}
-            <div className="absolute right-23 bg-white shadow-lg border border-blue-200 rounded-xl px-4 py-2 w-58 text-sm text-gray-700 flex items-center gap-2">
-          <img src={sid} alt="Monitor Icon" className="w-5 h-5" />
-          <span>Easy to monitoring Data</span>
+            <div className="absolute right-23 bg-white shadow-lg border border-blue-200 rounded-xl px-4 py-2 w-88 text-sm text-gray-700 flex items-center gap-2">
+          <img src={sid} alt="Monitor Icon" className="w-5 h-6" />
+    <span>Work with more focus, autonomy, and trust.</span>
         </div>
         
         {/* Chat Box 2 */}
-        <div className="absolute bottom-4 right-95 bg-white shadow-lg border border-blue-200 rounded-xl px-4 py-2 ml-20 w-68 text-sm text-gray-700 flex items-center gap-2">
-          <img src={ak} alt="Focus Icon" className="w-5 h-5" />
-          <span>Work with more focus, autonomy, and trust.</span>
+        <div className="absolute bottom-4 right-95 bg-white shadow-lg border border-blue-200 rounded-xl px-4 py-2 ml-20 w-60 text-sm text-gray-700 flex items-center gap-2">
+          <img src={ak} alt="Focus Icon" className="w-5 h-6" />
+         
+            <span>Easy to monitoring Data</span>
         </div>
         
         {/* Chat Box 3 */}
-        <div className="absolute top-2/4 right-95 bg-white shadow-lg border border-blue-200 rounded-xl px-4 py-2 w-68 text-sm text-gray-700 flex items-center gap-2">
-          <img src={vai} alt="Trust Icon" className="w-5 h-5" />
+        <div className="absolute top-2/4 right-85 bg-white shadow-lg border border-blue-200 rounded-xl px-4 py-2 w-88 text-sm text-gray-700 flex items-center gap-2">
+          <img src={vai} alt="Trust Icon" className="w-5 h-6" />
           <span>Work with more focus, autonomy, and trust.</span>
         </div>
         </div>

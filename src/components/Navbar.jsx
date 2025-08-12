@@ -20,7 +20,7 @@ const Navbar = () => {
           <button className="bg-white-600 text-[rgba(54,137,177,1)] rounded-lg w-20 md:w-30 border-2 border-[rgba(54,137,177,1)]  hover:bg-blue-300 rounded-md-px-2 py-2 hover:shadow-xl hover:-translate-y-2">Demo</button>
           <button className="bg-white-600 text-white bg-[rgba(54,137,177,1)] rounded-lg w-50 md:w-40 border-2 border-[rgba(54,137,177,1)]   hover:bg-blue-300 rounded-md-px-2 py-2 hover:shadow-xl hover:-translate-y-2">Start free trial</button>
 
-          <a href="" className="text-black-700 ">Log in</a>
+          <a href="/Login" className="text-black-700 ">Log in</a>
         </div>
 
         {/* Hamburger Icon for Mobile */}
@@ -41,7 +41,7 @@ const Navbar = () => {
 
           <button className="bg-white-600 text-blue-300 rounded-lg border-2 border-[rgba(54,137,177,1)] py-2" onClick={() => setMobileOpen(false)}>Demo</button>
           <button className="bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition border-2 border-[rgba(54,137,177,1)] py-2" onClick={() => setMobileOpen(false)}>Start Free Trial</button>
-          <a href="" className="text-black-700" onClick={() => setMobileOpen(false)}>Log in</a>
+          <a href="/Login" className="text-black-700" onClick={() => setMobileOpen(false)}>Log in</a>
         </div>
       </div>
     </nav>

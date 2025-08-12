@@ -37,7 +37,7 @@ export default function Forgotpassword() {
 
     if (Object.keys(newErrors).length === 0) {
       console.log("Password reset successful");
-      navigate("/"); // redirect to login
+      navigate("/Login"); // redirect to login
     }
   };
 
@@ -100,7 +100,7 @@ export default function Forgotpassword() {
         <div className="text-center text-sm">
           Back to login?{" "}
           <button
-            onClick={() => navigate("/")}
+            onClick={() => navigate("/Login")}
             className="text-blue-600 hover:underline"
           >
             Login

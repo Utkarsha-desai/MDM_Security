@@ -60,7 +60,7 @@ const HowMDMWorks = () => {
               <span>Easy to monitor data</span>
             </div>
 
-            <div className="absolute left-[12%] bottom-[10%] bg-white shadow-lg border border-blue-200 rounded-xl px-3 py-2 w-64 sm:w-82 text-xs sm:text-sm text-gray-700 flex items-center gap-2 z-30">
+            <div className="absolute left-[12%] bottom-[10%] bg-white shadow-lg border border-blue-200 rounded-xl px-3 py-2 w-74 sm:w-92 text-xs sm:text-sm text-gray-700 flex items-center gap-2 z-30">
               <img src={ak} alt="" className="w-5 h-5" />
               <span>Work with more focus, autonomy, and trust.</span>
             </div>

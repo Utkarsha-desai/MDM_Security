@@ -10,9 +10,6 @@ import Home8 from "./components/Home8";
 import Footer from "./components/Footer";
 
 
-
-
-
 const AllRoutes = () => {
   return (
     <>
@@ -26,8 +23,7 @@ const AllRoutes = () => {
         <Home7 />
         <Home8 />
         <Footer />
- 
-          
+    
       </div>
     </>
   );
